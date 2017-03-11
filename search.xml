@@ -3,6 +3,13 @@
   
     
     <entry>
+      <title><![CDATA[web前端网站性能优化]]></title>
+      <url>%2F2017%2F03%2F11%2Fweb%E5%89%8D%E7%AB%AF%E7%BD%91%E7%AB%99%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%2F</url>
+      <content type="text"><![CDATA[一 css、js文件的数量和文件大小 css js 文件需要外联，按模块或者功能加载js文件，减少重复性代码 二 背景图片的数量以及大小 可以采用精灵图(sprite)或者PNG8，以及webp格式 三 对html代码要语义化，利于网站爬虫的seo四 减少http请求五 代码布局 css样式至于顶部，js效果置于底部，减少DOM访问，]]></content>
+    </entry>
+
+    
+    <entry>
       <title><![CDATA[web优化加载速度]]></title>
       <url>%2F2017%2F03%2F11%2Fweb%E4%BC%98%E5%8C%96%E5%8A%A0%E8%BD%BD%E9%80%9F%E5%BA%A6%2F</url>
       <content type="text"><![CDATA[一 使用良好的页面结构 可以使用HTML减少使用XHTML 二 不要使用布局超载 不让页面中充斥着各种类型的图片、视频、广告 三 不要使用图像来代替文本 常见于在导航中用图像来代替简单的文字，让导航变的美观，但是它的加载速度慢，也不利于搜索引擎，所以尽量不要使用，实在要是用的话可以使用CSS技巧创建 四 把js代码外置五 删除不必要的元素 一个页面的功能要单一，把不同功能的页面进行分页 六 尽量使用PNG图像，不过也可以使用webp这种图片格式七 优化css代码同样也需要外链]]></content>
