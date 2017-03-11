@@ -3,9 +3,16 @@
   
     
     <entry>
+      <title><![CDATA[web端中的seo应用]]></title>
+      <url>%2F2017%2F03%2F11%2Fweb%E7%AB%AF%E4%B8%AD%E7%9A%84seo%E5%BA%94%E7%94%A8%2F</url>
+      <content type="text"><![CDATA[一 html语义化标签，尽量少用div span这种无语义化标签，重要的信息要用strong em 不要使用b标签二 不要使用ifame，因为里面的内容是不会被网络爬虫搜索到三 js中输出的内容会降低seo搜索四 图片上要使用alt属性，这样当图片加载不了时也会显示解释文本]]></content>
+    </entry>
+
+    
+    <entry>
       <title><![CDATA[web前端网站性能优化]]></title>
       <url>%2F2017%2F03%2F11%2Fweb%E5%89%8D%E7%AB%AF%E7%BD%91%E7%AB%99%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%2F</url>
-      <content type="text"><![CDATA[一 css、js文件的数量和文件大小 css js 文件需要外联，按模块或者功能加载js文件，减少重复性代码 二 背景图片的数量以及大小 可以采用精灵图(sprite)或者PNG8，以及webp格式 三 对html代码要语义化，利于网站爬虫的seo四 减少http请求五 代码布局 css样式至于顶部，js效果置于底部，减少DOM访问，]]></content>
+      <content type="text"><![CDATA[一 css、js文件的数量和文件大小 css js 文件需要外联，按模块或者功能加载js文件，减少重复性代码 二 背景图片的数量以及大小 可以采用精灵图(sprite)或者PNG8，以及webp格式 三 对html代码要语义化，利于网站爬虫的seo四 减少http请求 把所以的css文件放到一个文件夹js文件同理， 把静态资源单独放一台静态服务器或CDN 页面上的有些功能可以考虑异步加载 五 代码布局 css样式至于顶部，js效果置于底部，减少DOM访问，]]></content>
     </entry>
 
     

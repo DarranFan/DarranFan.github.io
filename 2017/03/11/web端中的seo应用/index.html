@@ -7,22 +7,15 @@
 
     
 
-    <title>web前端网站性能优化 | </title>
+    <title>web端中的seo应用 | </title>
     <meta name="author" content="Darran Fan">
     
-    <meta name="description" content="一 css、js文件的数量和文件大小
-css  js 文件需要外联，按模块或者功能加载js文件，减少重复性代码
-
-二 背景图片的数量以及大小
-可以采用精灵图(sprite)或者PNG8，以及webp格式
-
-三 对html代码要语义化，利于网站爬虫的seo四 减少http请求
-把所以的css文件放到一">
+    <meta name="description" content="一 html语义化标签，尽量少用div span这种无语义化标签，重要的信息要用strong em 不要使用b标签二 不要使用ifame，因为里面的内容是不会被网络爬虫搜索到三 js中输出的内容会降低seo搜索四 图片上要使用alt属性，这样当图片加载不了时也会显示解释文本">
     
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <meta property="og:title" content="web前端网站性能优化"/>
+    <meta property="og:title" content="web端中的seo应用"/>
     <meta property="og:site_name" content="hexo"/>
 
     
@@ -220,12 +213,12 @@ css  js 文件需要外联，按模块或者功能加载js文件，减少重复�
             <div class="article-title">
                 
     
-        <h1>web前端网站性能优化</h1>
+        <h1>web端中的seo应用</h1>
     
 
 
             </div>
-            <time class="pink-link-context" datetime="2017-03-11T06:53:37.000Z"><a href="/2017/03/11/web前端网站性能优化/">2017-03-11</a></time>
+            <time class="pink-link-context" datetime="2017-03-11T07:30:16.000Z"><a href="/2017/03/11/web端中的seo应用/">2017-03-11</a></time>
 
             <span id="busuanzi_container_page_pv" class="read-times-container">
     <i class="fa fa-eye"></i>
@@ -235,44 +228,24 @@ css  js 文件需要外联，按模块或者功能加载js文件，减少重复�
             
     <div class="tags-row">
         
-            <a href="/tags/web前端网站性能优化/" class="chip pink lighten-1">web前端网站性能优化</a>
+            <a href="/tags/web端中的seo应用/" class="chip pink lighten-1">web端中的seo应用</a>
         
     </div>
 
 
             <div class="toc pink-link-context hide-on-med-and-down">
-    <ol class="section table-of-contents"><li class="section table-of-contents-item section table-of-contents-level-1"><a class="section table-of-contents-link" href="#一-css、js文件的数量和文件大小"><span class="section table-of-contents-text">一 css、js文件的数量和文件大小</span></a></li><li class="section table-of-contents-item section table-of-contents-level-1"><a class="section table-of-contents-link" href="#二-背景图片的数量以及大小"><span class="section table-of-contents-text">二 背景图片的数量以及大小</span></a></li><li class="section table-of-contents-item section table-of-contents-level-1"><a class="section table-of-contents-link" href="#三-对html代码要语义化，利于网站爬虫的seo"><span class="section table-of-contents-text">三 对html代码要语义化，利于网站爬虫的seo</span></a></li><li class="section table-of-contents-item section table-of-contents-level-1"><a class="section table-of-contents-link" href="#四-减少http请求"><span class="section table-of-contents-text">四 减少http请求</span></a></li><li class="section table-of-contents-item section table-of-contents-level-1"><a class="section table-of-contents-link" href="#五-代码布局"><span class="section table-of-contents-text">五 代码布局</span></a></li></ol>
+    <ol class="section table-of-contents"><li class="section table-of-contents-item section table-of-contents-level-1"><a class="section table-of-contents-link" href="#一-html语义化标签，尽量少用div-span这种无语义化标签，重要的信息要用strong-em-不要使用b标签"><span class="section table-of-contents-text">一 html语义化标签，尽量少用div span这种无语义化标签，重要的信息要用strong em 不要使用b标签</span></a></li><li class="section table-of-contents-item section table-of-contents-level-1"><a class="section table-of-contents-link" href="#二-不要使用ifame，因为里面的内容是不会被网络爬虫搜索到"><span class="section table-of-contents-text">二 不要使用ifame，因为里面的内容是不会被网络爬虫搜索到</span></a></li><li class="section table-of-contents-item section table-of-contents-level-1"><a class="section table-of-contents-link" href="#三-js中输出的内容会降低seo搜索"><span class="section table-of-contents-text">三 js中输出的内容会降低seo搜索</span></a></li><li class="section table-of-contents-item section table-of-contents-level-1"><a class="section table-of-contents-link" href="#四-图片上要使用alt属性，这样当图片加载不了时也会显示解释文本"><span class="section table-of-contents-text">四 图片上要使用alt属性，这样当图片加载不了时也会显示解释文本</span></a></li></ol>
 </div>
 
 
             <div class="entry pink-link-context">
-                <h1 id="一-css、js文件的数量和文件大小"><a href="#一-css、js文件的数量和文件大小" class="headerlink" title="一 css、js文件的数量和文件大小"></a>一 css、js文件的数量和文件大小</h1><ul>
-<li>css  js 文件需要外联，按模块或者功能加载js文件，减少重复性代码</li>
-</ul>
-<h1 id="二-背景图片的数量以及大小"><a href="#二-背景图片的数量以及大小" class="headerlink" title="二 背景图片的数量以及大小"></a>二 背景图片的数量以及大小</h1><ul>
-<li>可以采用精灵图(sprite)或者PNG8，以及webp格式</li>
-</ul>
-<h1 id="三-对html代码要语义化，利于网站爬虫的seo"><a href="#三-对html代码要语义化，利于网站爬虫的seo" class="headerlink" title="三 对html代码要语义化，利于网站爬虫的seo"></a>三 对html代码要语义化，利于网站爬虫的seo</h1><h1 id="四-减少http请求"><a href="#四-减少http请求" class="headerlink" title="四 减少http请求"></a>四 减少http请求</h1><ul>
-<li>把所以的css文件放到一个文件夹js文件同理，</li>
-<li>把静态资源单独放一台静态服务器或CDN</li>
-<li>页面上的有些功能可以考虑异步加载</li>
-</ul>
-<h1 id="五-代码布局"><a href="#五-代码布局" class="headerlink" title="五 代码布局"></a>五 代码布局</h1><ul>
-<li>css样式至于顶部，js效果置于底部，减少DOM访问，</li>
-</ul>
-
+                <h1 id="一-html语义化标签，尽量少用div-span这种无语义化标签，重要的信息要用strong-em-不要使用b标签"><a href="#一-html语义化标签，尽量少用div-span这种无语义化标签，重要的信息要用strong-em-不要使用b标签" class="headerlink" title="一 html语义化标签，尽量少用div span这种无语义化标签，重要的信息要用strong em 不要使用b标签"></a>一 html语义化标签，尽量少用div span这种无语义化标签，重要的信息要用strong em 不要使用b标签</h1><h1 id="二-不要使用ifame，因为里面的内容是不会被网络爬虫搜索到"><a href="#二-不要使用ifame，因为里面的内容是不会被网络爬虫搜索到" class="headerlink" title="二 不要使用ifame，因为里面的内容是不会被网络爬虫搜索到"></a>二 不要使用ifame，因为里面的内容是不会被网络爬虫搜索到</h1><h1 id="三-js中输出的内容会降低seo搜索"><a href="#三-js中输出的内容会降低seo搜索" class="headerlink" title="三 js中输出的内容会降低seo搜索"></a>三 js中输出的内容会降低seo搜索</h1><h1 id="四-图片上要使用alt属性，这样当图片加载不了时也会显示解释文本"><a href="#四-图片上要使用alt属性，这样当图片加载不了时也会显示解释文本" class="headerlink" title="四 图片上要使用alt属性，这样当图片加载不了时也会显示解释文本"></a>四 图片上要使用alt属性，这样当图片加载不了时也会显示解释文本</h1>
                 
-<p class="pink-link-context">
-    <a href="/2017/03/11/web端中的seo应用/" rel="next" title="web端中的seo应用">
-    Prev: web端中的seo应用
-  </a>
-</p>
-
 
 
 <p class="pink-link-context">
-    <a href="/2017/03/11/web优化加载速度/" rel="next" title="web优化加载速度">
-    Next: web优化加载速度
+    <a href="/2017/03/11/web前端网站性能优化/" rel="next" title="web前端网站性能优化">
+    Next: web前端网站性能优化
   </a>
 </p>
 
